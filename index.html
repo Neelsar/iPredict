@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> iPredict </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<style>
+			body{
+				background-color: #ddd;
+				height: 100%;
+				width: 100%;
+				margin: 0;
+			}
+			a, a:hover, a:focus{
+				text-decoration: none;
+			}
+
+			/*Header & Menu Styles*/
+			header{
+				height: 50px;
+			}
+			.c-header-top{	
+				font-size: 30px;
+				text-align: center;
+				width: 100%;
+			}
+			
+			.c-header-top a{
+				color: #777777;
+			}
+
+			/*Match Info Box Styles*/
+			ul.scheduledMatches{
+				list-style: none;
+				padding: 7px;
+			}
+			.matchBox{
+				position: relative;
+				width: 100%;
+				padding: 2px;
+				color: #515151;
+				background-color: #fff;
+				border: thin solid #f1f1f1;
+				-webkit-border-radius: 3px !important;
+				-moz-border-radius: 3px !important;
+				border-radius: 2px !important;
+				-webkit-box-shadow: 2px 2px 0 rgba(95,95,95,0.1) !important;
+				-moz-box-shadow: 2px 2px 0 rgba(95,95,95,0.1) !important;
+				-ms-box-shadow: none;
+				-o-box-shadow: none;
+				box-shadow: 2px 2px 0 rgba(95,95,95,0.1) !important;
+				margin-bottom: 5px;
+			}
+			.matchHeader{
+				margin: 0;
+				padding: 7px 7px 7px 0;
+				background-color: RGB(22,197,127);
+				padding-left: 5%;
+				border-bottom: 3px solid RGB(18,160,103);
+				color: #fff;
+			}
+			.matchContent{
+				padding: 7px;
+			}
+			.matchInfo{
+				padding: 5px;
+			}
+			.time{
+				font-size: 12px;
+			}
+			.actions{
+				background-color: #ddd;
+				height: 25px;
+				width: 100%;
+				margin: 0px;
+				vertical-align: middle;
+				font-size: 15px;
+				line-height: 1.7em;
+			}
+			.actions a{
+				text-align: left;
+				margin-left: 10px;
+				vertical-align: middle;
+				color: #76838a;
+			}
+			.actions div {
+				background-color: #76838a;
+				height: 25px;
+				width: 30px;
+				float: right;
+				text-align: center;
+			}
+			.actions div a {
+				margin: 0px;
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="c-header-top">
+				<a href="#"><span>iPredict</span></a>
+			</div>		
+		</header>
+		
+		
+		<ul class="scheduledMatches">    
+			<li>        
+				<div class="matchBox">            
+					<div class="matchHeader">      
+						<div class="summary short">CSK vs DD</div>  
+					</div> 
+					<div class="matchContent"> 
+						<div class="matchInfo"> 
+							<div class="time"> 20:00 IST (14:30 GMT), Thursday April 9th 2015</div>
+							<div class="stadium">M. A. Chidambaram Stadium, Chennai</div>  
+						</div>          
+						<div class="actions">    
+							<a href="/match/2015/3" class="highlightBtn matchCentre">View Details</a>
+							<div>
+								<a href="">></a>
+                            </div>
+						</div>  
+					</div>   
+				</div>   
+			</li> 		
+			<li>        
+				<div class="matchBox" style="-webkit-animation-delay: 0s;">            
+					<div class="matchHeader">      
+						<div class="summary short">KXIP vs RR</div>  
+					</div> 
+					<div class="matchContent"> 
+						<div class="matchInfo"> 
+							<div class="time">8:00pm IST (2:30pm GMT), Friday 10th April 2015</div>
+							<div class="stadium">MCA International Stadium, Pune</div>  
+						</div>          
+						<div class="actions">    
+							<a href="/match/2015/3" class="highlightBtn matchCentre">View Details</a>
+							<div>
+                            <a href="">></a>
+                            </div>
+						</div>  
+					</div>   
+				</div>   
+			</li> 	
+			<li>        
+				<div class="matchBox" style="-webkit-animation-delay: 0s;">            
+					<div class="matchHeader">      
+						<div class="summary short">CSK vs SRH</div>  
+					</div> 
+					<div class="matchContent"> 
+						<div class="matchInfo"> 
+							<div class="time">4:00pm IST (10:30am GMT), Saturday 11th April 2015</div>
+							<div class="stadium">M. A. Chidambaram Stadium, Chennai</div>  
+						</div>          
+						<div class="actions">    
+							<a href="/match/2015/3" class="highlightBtn matchCentre">View Details</a>
+							<div>
+                            <a href="">></a>
+                            </div>
+						</div>  
+					</div>   
+				</div>   
+			</li> 
+			<li>        
+				<div class="matchBox" style="-webkit-animation-delay: 0s;">            
+					<div class="matchHeader">      
+						<div class="summary short">KKR vs RCB</div>  
+					</div> 
+					<div class="matchContent"> 
+						<div class="matchInfo"> 
+							<div class="time">8:00pm IST (2:30pm GMT), Saturday 11th April 2015</div>
+							<div class="stadium">Eden Gardens, Kolkata</div>  
+						</div>          
+						<div class="actions">    
+							<a href="/match/2015/3" class="highlightBtn matchCentre">View Details</a>
+							<div>
+                            <a href="">></a>
+                            </div>
+						</div>  
+					</div>   
+				</div>   
+			</li> 
+		</ul>		
+		
+		<footer>			
+		</footer>
+	</body>
+</html>
